@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc"
+    android:padding="20dp"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONGRATULATIONS!"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="33dp"
+        />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AMAAN"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#281E5D"
+        android:backgroundTint="@color/white"
+        android:textStyle="italic|bold"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/scoreView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your score is :"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:gravity="center"
+        android:text="You were amazing, keep it up!"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:id="@+id/finalBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:minHeight="48dp"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:text="FINISH"
+        android:textColor="#281E5D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+
+</LinearLayout>
